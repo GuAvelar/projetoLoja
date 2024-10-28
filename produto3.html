@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto - DoDev Clothes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">DoDev Clothes</div>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobreNos.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-section">
+        <h1 class="product-title">Moletom</h1>
+        <img src="assets/moletom 01.jpeg" alt="Camiseta 01" class="product-image" height="300" width="500">
+        <p class="product-description">Moletom confortável e estilosa, perfeita para o seu dia a dia.</p>
+
+        <form class="product-form">
+            <label for="tamanho">Escolha o Tamanho:</label>
+            <select id="tamanho" name="tamanho" class="input-field" required>
+                <option value="" disabled selected>Selecione um tamanho</option>
+                <option value="P">P</option>
+                <option value="M">M</option>
+                <option value="G">G</option>
+                <option value="GG">GG</option>
+            </select>
+
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" name="quantidade" class="input-field" min="1" value="1" required>
+
+            <button type="submit" class="submit-button">Adicionar ao Carrinho</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 DoDev Clothes. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

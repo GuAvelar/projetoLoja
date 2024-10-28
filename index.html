@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoDev Clothes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">DoDev Clothes</div>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobreNos.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <h1 class="hero-title">Seu armário tech</h1>
+        <p class="hero-description">Roupas confortáveis que você não precisa passar</p>
+        <div class="button-container">
+            <button class="cta-button">Comprar</button>
+        </div>
+        <a href="produto1.html">
+            <img src="assets/camiseta 1.jpeg" alt="Camiseta 01" class="hero-image" height="300" width="500">
+        </a>
+    </section>
+
+    <section class="models-section">
+        <h3 class="models-title">Principais Modelos</h3>
+        <div class="models-gallery">
+            <a href="produto2.html">
+                <img src="assets/camiseta 2.jpeg" alt="Camiseta 02" class="model-image" height="300" width="250">
+            </a>
+            <a href="produto3.html">
+                <img src="assets/moletom 01.jpeg" alt="Moletom" class="model-image" height="300" width="250">
+            </a>
+            <a href="produto4.html">
+                <img src="assets/camiseta manga longa.jpeg" alt="Camiseta Manga Longa" class="model-image" height="300" width="250">
+            </a>
+        </div>
+    </section>
+
+    <section class="promo-section">
+        <form class="promo-form">
+            <h3 class="promo-title">Receba Promoções</h3>
+            <input type="text" id="nomeUsuario" name="nomeUsuario" placeholder="Digite seu nome:" class="input-field" required>
+            <input type="email" id="emailUsuario" name="emailUsuario" placeholder="Digite seu E-mail" class="input-field" required>
+            <input type="tel" id="telefoneUsuario" name="telefoneUsuario" placeholder="(xx) xxxxx-xxxx" class="input-field" required>
+            <button type="submit" class="submit-button">Cadastrar</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <p>© 2024 DoDev Clothes. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
